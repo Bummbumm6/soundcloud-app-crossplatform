@@ -1,0 +1,23 @@
+{
+  "name": "soundcloud-app-crossplatform",
+  "version": "1.0.0",
+  "description": "Crossplatform app for SoundCloud.com",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bummbumm6/soundcloud-app-crossplatform.git"
+  },
+  "author": "Bummbumm6",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Bummbumm6/soundcloud-app-crossplatform/issues"
+  },
+  "homepage": "https://github.com/Bummbumm6/soundcloud-app-crossplatform#readme",
+  "devDependencies": {
+    "electron": "^32.1.2",
+    "electron-devtools-installer": "^3.2.0"
+  }
+}
