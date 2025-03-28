@@ -1,6 +1,6 @@
 i write the >10 lines of code for lazy people
 
-how to build:
+## how to build:
 prerequisites:
 - node lts with npm
 ```
