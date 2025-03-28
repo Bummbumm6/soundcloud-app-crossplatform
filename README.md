@@ -11,4 +11,4 @@ npm i
 npx electron-forge import
 npm run package
 ```
-finished build is in out/soundcloud-app-crossplatform-<platform>
+finished build is in out/soundcloud-app-crossplatform-\<platform\>
