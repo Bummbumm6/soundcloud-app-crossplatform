@@ -1,4 +1,3 @@
-const { default: installExtension } = require('electron-devtools-installer');
 const { app, BrowserWindow } = require('electron')
 const createWindow = () => {
   const win = new BrowserWindow({
@@ -12,9 +11,3 @@ const createWindow = () => {
 
   win.loadFile('index.html')
 }
-app.whenReady().then(() => {
-  installExtension("cjpalhdlnbpafiamejdnhcphjbkeiagm")
-        .then((name) => console.log(`Added Extension:  ${name}`))
-        .catch((err) => console.log('An error occurred: ', err));
-  createWindow()
-})
