@@ -1,6 +1,6 @@
 i write the >10 lines of code for lazy people
 
-how to build:
+## how to build:
 prerequisites:
 - node lts with npm
 ```
@@ -11,4 +11,4 @@ npm i
 npx electron-forge import
 npm run package
 ```
-finished build is in out/soundcloud-app-crossplatform-<platform>
+finished build is in out/soundcloud-app-crossplatform-\<platform\>
