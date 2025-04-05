@@ -9,6 +9,8 @@ cd soundcloud-app-crossplatform
 npm i -g npm
 npm i
 npx electron-forge import
-npm run package
+npm run make
 ```
-finished build is in out/soundcloud-app-crossplatform-\<platform\>
+finished build is in out/make/\<deb/rpm\>/x64/
+
+note: if building on fedora 41 or some versions of ubuntu fails, please try the fix at https://github.com/electron/forge/issues/3701#issuecomment-2552233499
